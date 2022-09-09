@@ -39,7 +39,7 @@ Final array for itration 1 will look like this:-
     
     
  ## Step 4
- Now we will start again from inedx 1 and 2 [1,2].
+ Now we will start again from inedx 0 and 1 [0,1].
  we will compare  <br>
  -272 > -45 false. <br>
  -45 > 176  false <br>
@@ -58,7 +58,7 @@ Final array for itration 1 will look like this:-
     Ar:-       -272  -272  -45 -327 -945   176   176  269
     
  ## Step 5 
- Now we will start from 2 and 3 [2,3] and follow same step 3.
+ Now we will start from 0 and 1 [0,1] and follow same step 3.
  by following these steps Array will be sorted.
  
  
