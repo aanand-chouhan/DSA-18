@@ -70,7 +70,7 @@ Final array for itration 1 will look like this:-
 
 # Code
 
-    
+ ~~~   
     import java.util.Arrays;
 
     public class BoubleSort {
@@ -91,9 +91,10 @@ Final array for itration 1 will look like this:-
           System.out.println(Arrays.toString(ar));
 	    }
     }
-    
-# Complexity:- O(n^2)
+~~~
 
-Worst case scenario array is in descending order.
-Best case example array is in ascending order.
+###  Complexity:- O(n^2)
+
+###   Worst case scenario array is in descending order.
+###   Best case example array is in ascending order.
     
