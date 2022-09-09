@@ -76,19 +76,20 @@ Final array for itration 1 will look like this:-
     public class BoubleSort {
         public static void sortingArray(){
 	    	int[] ar = {176, -272, -272, -45, 269, -327, -945, 176};
-	        int count = 0;
 	        for(int ind = 0; ind<ar.length;ind++){
+		    // adding to minimize the number of itration.
+		    boolean isSorted=true;
 	            for(int j = 0; j<ar.length-1;j++){
 	               if(ar[j] > ar[j+1]){
+		           isSorted=false;
 	                   int temp = ar[j];
 	                   ar[j] = ar[j+1];
-	                   ar[j+1] = temp;
-	                   count++;   
+	                   ar[j+1] = temp;	         
 	               }
 	            }
+		    if(isSorted) break;
 	        }
-	        System.out.println(count);
-          System.out.println(Arrays.toString(ar));
+	          System.out.println(Arrays.toString(ar));
 	    }
     }
 ~~~
